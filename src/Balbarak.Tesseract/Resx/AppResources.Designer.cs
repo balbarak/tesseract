@@ -63,9 +63,9 @@ namespace Balbarak.Tesseract.Resx {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TesseractData {
+        internal static byte[] Tesseract_win {
             get {
-                object obj = ResourceManager.GetObject("TesseractData", resourceCulture);
+                object obj = ResourceManager.GetObject("Tesseract_win", resourceCulture);
                 return ((byte[])(obj));
             }
         }
