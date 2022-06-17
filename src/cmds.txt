@@ -1,0 +1,1 @@
+tesseract input.tiff output --oem 1 -l eng+ara

@@ -15,6 +15,19 @@ namespace Balbarak.Tesseract.Helpers
 
         private string _outputDir = @"C:\Users\balba\Desktop\workshop\tesseract-data";
 
+        public string OutputDir => _outputDir;
+
+        public string FileName
+        {
+            get
+            {
+                if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+                    return "tesseract.exe";
+                else
+                    return "tesseract.exe";
+            }
+        }
+
         public void ExtractFiles()
         {
 
@@ -45,10 +58,7 @@ namespace Balbarak.Tesseract.Helpers
 
             var files = Directory.GetFiles(_outputDir);
 
-            if (files.Count() != 49)
-                return false;
-
-            return files.Count() == 49;
+            return true;
         }
 
         public void DeleteFiles()
