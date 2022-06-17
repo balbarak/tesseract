@@ -1,1 +1,1 @@
-src/Balbarak.Tesseract/tesseract-data/libtesseract-5.dll filter=lfs diff=lfs merge=lfs -text
+#**/*/libtesseract-5.dll filter=lfs diff=lfs merge=lfs -text
