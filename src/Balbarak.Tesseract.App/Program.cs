@@ -34,7 +34,7 @@ internal class Program
 
                 if (string.IsNullOrEmpty(cmd))
                 {
-                    Console.WriteLine("<cmd> args cannot be empty when --action raw is specified.");
+                    Console.WriteLine("--cmd args cannot be empty when --action raw is specified.");
                     return;
                 }
 

@@ -17,6 +17,11 @@ namespace Balbarak.Tesseract.Helpers
 
         public string OutputDir => _outputDir;
 
+        public FileManager()
+        {
+            _outputDir = Path.Combine(Environment.CurrentDirectory, "tesseract-data");
+        }
+
         public string FileName
         {
             get
