@@ -37,5 +37,16 @@ namespace Balbarak.Tesseract.Test
 
             var result = await client.Raw("--version");
         }
+
+        [Fact]
+        public async Task Should_Exceute_Raw_Command_To_Read()
+        {
+            var inputFile = @"C:\Users\balba\Desktop\workshop\letters\1.jpg";
+
+            var client = new TesseractClient();
+
+            //var result = await client.Raw($"{inputFile} - -l eng+ara --psm 6 -c preserve_interword_spaces=1");
+            var result = await client.Raw($"{inputFile} - -l eng+ara tsv");
+        }
     }
 }

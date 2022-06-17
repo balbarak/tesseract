@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solution
 		cmds.txt = cmds.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balbarak.Tesseract.App", "Balbarak.Tesseract.App\Balbarak.Tesseract.App.csproj", "{34327C3F-E8F8-426B-AD50-D179439CC90A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{304A65EC-087B-4862-BD05-0631A116C4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{304A65EC-087B-4862-BD05-0631A116C4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{304A65EC-087B-4862-BD05-0631A116C4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34327C3F-E8F8-426B-AD50-D179439CC90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34327C3F-E8F8-426B-AD50-D179439CC90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34327C3F-E8F8-426B-AD50-D179439CC90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34327C3F-E8F8-426B-AD50-D179439CC90A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

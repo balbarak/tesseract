@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Balbarak.Tesseract
 {
-    public class TesseractClient : ITesseractClient
+    public class TesseractClient : ITesseractClient, IDisposable
     {
         private string _bashName;
 
@@ -85,5 +85,9 @@ namespace Balbarak.Tesseract
             return $"/c {fileName} {cmd}";
         }
 
+        public void Dispose()
+        {
+            
+        }
     }
 }

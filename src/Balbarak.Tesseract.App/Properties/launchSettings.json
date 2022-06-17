@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Balbarak.Tesseract.App": {
+      "commandName": "Project",
+      //"commandLineArgs": "--action read --input \"C:\\Users\\balba\\Desktop\\workshop\\letters\\1.jpg\""
+      "commandLineArgs": "--input \"C:\\Users\\balba\\Desktop\\workshop\\letters\\1.jpg\""
+    }
+  }
+}
