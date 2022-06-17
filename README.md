@@ -15,7 +15,7 @@ To read image data from file and output the result in terminal (supported image 
 
     tsct.exe --input "path/to/image.jpg"
 
-To read image data from file and ouput to text file
+To read image data from file and output to text file
 
     tsct.exe --input "path/to/image.jpg" --output "path/to/output.txt"
 
